@@ -1,0 +1,5 @@
+packages:
+  #サブプロジェクトの検出
+  - "packages/*"
+  #サブプロジェクトから除外
+  - "!exclude_dir/**"

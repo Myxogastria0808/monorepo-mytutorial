@@ -1,0 +1,21 @@
+{
+  "name": "monorepo-mytutorial",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "npx -y only-allow pnpm",
+    "test": "echo \"Hello, Workspaces!\"",
+    "pkg1": "pnpm -F \"pkg1\"",
+    "pkg2": "pnpm -F \"pkg2\""
+  },
+  "engines": {
+    "pnpm": "9.2.0",
+    "npm": "This project only allows pnpm.",
+    "yarn": "This project only allows pnpm"
+  },
+  "packageManager": "pnpm@9.2.0",
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}
